@@ -1,0 +1,86 @@
+body {
+  
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fff !important;
+}
+
+#root {
+  position: relative;
+  background: #FFFFFF;
+  border-radius: 16px;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.login-background {
+  background: url('./img/hinh2.png') top center / cover no-repeat;
+  height: 100vh;
+}
+.login-container {
+  width: 360px;
+  height: auto;
+  position: absolute;
+  left: 62%;
+  top: 22%;
+}
+
+.h2-login {
+  padding-bottom: 36px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.email, .password {
+  font-size: 16px;
+  font-weight: 600;
+  display: block;
+}
+
+.input-second, .IPemail {
+  
+  border-radius: 4px;
+  background: #F2F2F2;
+  opacity: 0.7;
+  margin-bottom: 16px;
+  width: 100%;
+  height: 46px;
+  font-size: 16px;
+
+}
+
+.btn-dangnhap {
+  background: linear-gradient(270deg, #FF5400 0%, #F17F21 80.56%);
+  height: 52px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  color: #FFFFFF;
+  margin-top: 40px;
+  width: 100%;
+}
+
+.Forgot-password {
+  float: right;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 130%;
+  color: #FF7506;
+
+}
+
+
+
+
